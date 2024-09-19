@@ -57,10 +57,10 @@
   background-color: #e5a6a6; 
 }
 .main-content {
-  margin-top: 10px;
-  margin-right: 10px;
-  width: 1500px;
-  height: 855px; 
+  margin-top: 7px;
+  margin-right: 5px;
+  width: 1140px;
+  height: 685px; 
   background-color: black; 
   border-radius: 20px;
   position: absolute;
@@ -70,15 +70,15 @@
 }
 
 .main-content h1 {
-  margin-top: 300px; 
-  margin-left: 300px;
+  margin-top: 200px; 
+  margin-left: 200px;
   font-size: 60px;
   margin-bottom: 10px;
   color: #ccc;
 }
 
 .main-content p {
-  margin-left: 300px;
+  margin-left: 200px;
   font-size: 16px;
   color: #ccc;
 }
@@ -93,7 +93,11 @@
   color: #fff;
 }
 body {
+  margin: 0;
+  padding: 0;
   display: flex;
+  height: 100vh; 
+  overflow: hidden; 
 }
 
 .settings-panel {
@@ -187,10 +191,10 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 .toggle-required h4 {
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Center align items vertically */
+  display: flex; 
+  align-items: center; 
 }
 
 .toggle-required .switch {
-  margin-left: 175px; /* Adjust this value as needed for spacing */
+  margin-left: 175px; 
 }
